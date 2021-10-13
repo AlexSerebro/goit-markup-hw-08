@@ -1,0 +1,56 @@
+.hero {
+  display: flex;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+  background-color: $second-bg-color;
+}
+
+.hero__title {
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 360px;
+  text-transform: uppercase;
+  color: $white-text-color;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1.615;
+  letter-spacing: 0.06em;
+  text-align: center;
+
+  @media (min-width: 1200px) {
+    width: 696px;
+    font-size: 44px;
+    line-height: 1.364;
+  }
+}
+
+.hero__overlay {
+  margin-left: auto;
+  margin-right: auto;
+  background-image: $gradient, url(../../images/bgimg/header480.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    background-image: $gradient, url(../../images/bgimg/header480@2x.jpg);
+  }
+  @media (min-width: 481px) {
+    background-image: $gradient, url(../../images/bgimg/header768.jpg);
+
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      background-image: $gradient, url(../../images/bgimg/header768@2x.jpg);
+    }
+  }
+  @media (min-width: 769px) {
+    background-image: $gradient, url(../../images/bgimg/bg-img1200.jpg);
+
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      background-image: $gradient, url(../../images/bgimg/bg-img1200@2x.jpg);
+    }
+  }
+}
