@@ -10,23 +10,31 @@
   color: $white-text-color;
 }
 
-.footer__socblok {
-  align-items: baseline;
-  text-align: left;
-  margin-right: 93px;
-}
+// .footer__socblok {
+//   // align-items: baseline;
+//   // text-align: left;
+//   // margin-right: 93px;
+//   margin-right: auto;
+//   margin-left: auto;
+// }
 
 .footer__soclist {
   padding: 0;
   display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
 }
 
 .footer__socitem {
-  justify-content: center;
   margin-right: 10px;
   &:last-child {
     margin-right: 0;
   }
+  // justify-content: center;
+  // margin-right: 10px;
+  // &:last-child {
+  //   margin-right: 0;
+  // }
 }
 
 .footer__soclink {

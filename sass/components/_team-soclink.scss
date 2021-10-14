@@ -1,6 +1,7 @@
 .soc__list {
   padding: 0;
   display: flex;
+  justify-content: center;
 }
 .soc__item {
   margin-right: 10px;
@@ -18,7 +19,8 @@
   color: $cliets-color;
   justify-content: center;
   align-items: center;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &:focus,
   &:hover {
     background-color: $accent-color;
