@@ -9,15 +9,23 @@
 //   // justify-content: space-between;
 // }
 
-.wraoer {
+.wraper {
   display: flex;
   flex-direction: column;
+  @media (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
 
 .footer__contact {
   // margin-right: 70px;
   margin-right: auto;
   margin-left: auto;
+  @media (min-width: 768px) {
+    margin-right: 0;
+    margin-left: 0;
+  }
 }
 
 .footer__list {
