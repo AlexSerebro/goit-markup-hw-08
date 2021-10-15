@@ -35,28 +35,28 @@
 .hero__overlay {
   margin-left: auto;
   margin-right: auto;
-  background-image: $gradient, url(../../images/bgimg/header480.jpg);
+  background-image: $gradient, url(../images/bgimg/header480.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-    background-image: $gradient, url(../../images/bgimg/header480@2.jpg);
+    background-image: $gradient, url(../images/bgimg/header480@2.jpg);
   }
   @media (min-width: 481px) {
-    background-image: $gradient, url(../../images/bgimg/header768.jpg);
+    background-image: $gradient, url(../images/bgimg/header768.jpg);
 
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-      background-image: $gradient, url(../../images/bgimg/header768@2x.jpg);
+      background-image: $gradient, url(../images/bgimg/header768@2x.jpg);
     }
   }
   @media (min-width: 769px) {
     max-width: 1600px;
-    background-image: $gradient, url(../../images/bgimg/bg-img1200.jpg);
+    background-image: $gradient, url(../images/bgimg/bg-img1200.jpg);
 
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
       max-width: 1600px;
-      background-image: $gradient, url(../../images/bgimg/bg-img1200@2x.jpg);
+      background-image: $gradient, url(../images/bgimg/bg-img1200@2x.jpg);
     }
   }
 }
