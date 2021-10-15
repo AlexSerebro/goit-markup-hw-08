@@ -10,13 +10,11 @@
   color: $white-text-color;
 }
 
-// .footer__socblok {
-//   // align-items: baseline;
-//   // text-align: left;
-//   // margin-right: 93px;
-//   margin-right: auto;
-//   margin-left: auto;
-// }
+@media (min-width: 1200px) {
+  .footer__socblok {
+    text-align: left;
+  }
+}
 
 .footer__soclist {
   padding: 0;
@@ -30,11 +28,6 @@
   &:last-child {
     margin-right: 0;
   }
-  // justify-content: center;
-  // margin-right: 10px;
-  // &:last-child {
-  //   margin-right: 0;
-  // }
 }
 
 .footer__soclink {
