@@ -1444,11 +1444,6 @@ img {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    -ms-flex-preferred-size: auto;
-        flex-basis: auto;
-    -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
     margin: -15px;
   }
 }
@@ -1469,11 +1464,9 @@ img {
   .portf__item {
     width: calc((100% - 60px) / 2);
     margin: 15px;
-    -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
-    -ms-flex-preferred-size: auto;
-        flex-basis: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
@@ -1485,6 +1478,9 @@ img {
 }
 
 .portf__link {
+  display: block;
+  border: 1px solid #eeeeee;
+  border-top: none;
   -webkit-transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1508,8 +1504,6 @@ img {
 
 .portf__item--description {
   padding: 20px 24px;
-  border: 1px solid #eeeeee;
-  border-top: none;
 }
 
 .portf__title {
@@ -1781,36 +1775,46 @@ img {
 }
 
 .checkbox__label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-bottom: 30px;
+  font-size: 12px;
+  line-height: 1.16;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
 }
 
 @media (min-width: 1200px) {
   .checkbox__label {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    font-size: 14px;
+    line-height: 1.71;
   }
 }
 
 .checkbox__link {
-  margin-left: 5px;
-  font-size: 14px;
-  line-height: 1.71;
+  margin-left: 3px;
+  font-size: 12px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
   color: #2196f3;
+}
+
+@media (min-width: 1200px) {
+  .checkbox__link {
+    margin-left: 5px;
+    font-size: 14px;
+    line-height: 1.71;
+  }
 }
 
 .checkbox {
