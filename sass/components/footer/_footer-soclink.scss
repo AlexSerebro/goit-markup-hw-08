@@ -10,7 +10,7 @@
   color: $white-text-color;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: $desctop) {
   .footer__socblok {
     text-align: left;
   }

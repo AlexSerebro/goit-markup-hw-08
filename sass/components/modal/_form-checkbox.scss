@@ -12,7 +12,7 @@
 
   color: $primary-text-color;
 
-  @media (min-width: 1200px) {
+  @media (min-width: $desctop) {
     font-size: 14px;
     line-height: 1.71;
   }
@@ -27,7 +27,7 @@
 
   color: $accent-color;
 
-  @media (min-width: 1200px) {
+  @media (min-width: $desctop) {
     margin-left: 5px;
     font-size: 14px;
     line-height: 1.71;

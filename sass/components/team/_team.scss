@@ -13,12 +13,12 @@
 }
 
 .team__list {
-  @media (min-width: 768px) {
+  @media (min-width: $tablet) {
     display: flex;
     flex-wrap: wrap;
     margin: -15px;
   }
-  @media (min-width: 1200px) {
+  @media (min-width: $desctop) {
     flex-wrap: nowrap;
   }
 }
@@ -39,7 +39,7 @@
     margin-bottom: 0;
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: $tablet) {
     &:last-child {
       margin-bottom: 15px;
     }
@@ -55,7 +55,7 @@
   margin-right: auto;
   margin-left: auto;
 
-  @media (min-width: 1200px) {
+  @media (min-width: $desctop) {
     padding-bottom: 30px;
   }
 }

@@ -1,6 +1,6 @@
 .contact__list {
   margin-left: auto;
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: $desctop) {
     display: flex;
   }
 }
@@ -19,7 +19,7 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: $desctop) {
     font-size: 12px;
     line-height: 1.166;
     padding-top: 10px;
@@ -30,7 +30,7 @@
 .contact__icon {
   margin-right: 8px;
   fill: currentColor;
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: $desctop) {
     width: 16px;
     height: 12px;
     margin-right: 8px;
@@ -40,7 +40,7 @@
 .contact__icon--mail {
   width: 14px;
   height: 10px;
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: $desctop) {
     width: 16px;
     height: 12px;
   }
@@ -49,14 +49,14 @@
 .contact__icon--phone {
   width: 10px;
   height: 14px;
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: $desctop) {
     width: 10px;
     height: 16px;
   }
 }
 
 .contact__item {
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: $desctop) {
     &:not(:last-child) {
       margin-right: 50px;
     }

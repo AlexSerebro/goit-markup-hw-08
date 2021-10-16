@@ -3,7 +3,7 @@
   font-size: 28px;
   line-height: 1.179;
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: $desctop) {
     margin-bottom: 50px;
     font-size: 36px;
     line-height: 1.17;
@@ -21,10 +21,10 @@
   margin: 15px;
   width: calc((100% - 60px) / 2);
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: $tablet) {
     width: calc((100% - 90px) / 3);
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: $desctop) {
     width: 170px;
   }
 }
@@ -45,9 +45,6 @@
     border-radius: 4px;
     fill: currentColor;
   }
-
-  //  width: 170px;
-  // height: 92px;
 }
 
 .clients__icon {

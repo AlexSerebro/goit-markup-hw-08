@@ -5,10 +5,10 @@
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 40px;
-  @media (min-width: 768px) {
+  @media (min-width: $tablet) {
     justify-content: center;
   }
-  @media (min-width: 1200px) {
+  @media (min-width: $desctop) {
     margin-bottom: 50px;
   }
 }

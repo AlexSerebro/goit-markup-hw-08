@@ -13,11 +13,11 @@
   letter-spacing: 0.03em;
   text-align: left;
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: $mobile) {
     margin-right: 0;
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: $desctop) {
     font-size: 26px;
     padding-top: 24px;
     padding-bottom: 25px;
@@ -40,7 +40,7 @@
   margin-left: auto;
   padding: 0;
   text-align: center;
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: $desctop) {
     text-align: left;
   }
 }

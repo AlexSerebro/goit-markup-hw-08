@@ -2,46 +2,47 @@
 @import './utils/variables';
 @import './utils/visual-hiden';
 @import './utils/global-settings';
+@import './utils/container';
+@import './utils/breakpoints';
 
 // HEADER
+@import './components/header/header-container';
+@import './components/header/contacts';
+@import './components/header/logo';
+@import './components/header/nav';
+// mobile-menu
 
-@import './components/container';
-@import './components/header-container';
-@import './components/nav';
-@import './components/logo';
-@import './components/contacts';
-
-@import './components/mobile-menu';
-@import './components/mobile-socblok';
+@import './components/mobile-menu/mobile-menu';
+@import './components/mobile-menu/mobile-socblok';
 
 // hero section
-@import './components/hero';
-@import './components/button';
+@import './components/hero/button';
+@import './components/hero/hero';
 
 // features section
-@import './components/features';
+@import './components/features/features';
 
 // Task section
-@import './components/task';
+@import './components/task/task';
 
 // Team section
-@import './components/team';
-@import './components/team-soclink';
+@import './components/team/team';
+@import './components/team/team-soclink';
 
-// Cliens section
-@import './components/clients';
+// Clietns section
+@import './components/clients/clients';
 
 // footer section
-@import './components/footer';
-@import './components/footer-soclink';
-@import './components/footer-signup-form';
+@import './components/footer/footer';
+@import './components/footer/footer-soclink';
+@import './components/footer/footer-signup-form';
 
 // PORTFOLIO
-@import './components/portf-menu';
-@import './components/portf-items';
-@import './components/portfolio-overlay';
+@import './components/portfolio/portf-menu';
+@import './components/portfolio/portf-items';
+@import './components/portfolio/portfolio-overlay';
 
 // FORM
-@import './components/modal';
-@import './components/form';
-@import './components/form-checkbox';
+@import './components/modal/modal';
+@import './components/modal/form';
+@import './components/modal/form-checkbox';

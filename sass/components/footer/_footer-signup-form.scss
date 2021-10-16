@@ -3,14 +3,14 @@
   justify-content: center;
   margin-bottom: 20px;
 
-  @media (min-width: 1200px) {
+  @media (min-width: $desctop) {
     justify-content: left;
   }
 }
 
 .signup__form {
   text-align: center;
-  @media (min-width: 1200px) {
+  @media (min-width: $desctop) {
     display: flex;
   }
 }
@@ -19,7 +19,7 @@
   display: block;
   margin-bottom: 20px;
 
-  @media (min-width: 1200px) {
+  @media (min-width: $desctop) {
     width: 358px;
     margin-bottom: 0;
     margin-right: 12px;
