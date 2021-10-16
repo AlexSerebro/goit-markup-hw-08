@@ -4,6 +4,8 @@
 @import './utils/global-settings';
 @import './utils/container';
 @import './utils/breakpoints';
+@import './utils/mixin';
+@import './components/section/section';
 
 // HEADER
 @import './components/header/header-container';
