@@ -15,16 +15,23 @@
 .wraper {
   display: flex;
   flex-direction: column;
+  margin-bottom: 60px;
   @media (min-width: $tablet) {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: baseline;
+  }
+  @media (min-width: $desctop) {
+    margin-bottom: 0;
   }
 }
 
 .footer__contact {
   margin-right: auto;
   margin-left: auto;
+  @media (max-width: 767px) {
+    margin-bottom: 60px;
+  }
   @media (min-width: $tablet) {
     margin-right: 0;
     margin-left: 0;
@@ -46,14 +53,9 @@
 
 .footer__item {
   margin-bottom: 8px;
-  &:last-child {
-    margin-bottom: 60px;
-  }
+
   @media (min-width: $desctop) {
     margin-bottom: 9px;
-    &:last-child {
-      margin-bottom: 0;
-    }
   }
 }
 

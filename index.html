@@ -36,8 +36,8 @@
                             info@devstudio.com
                         </a>
                     </li>
-                    <li class="contact__item">
-                        <a href="tel:+380961111111" class="link contact__link">
+                    <li class="contact__item contact__item--phone">
+                        <a href="tel:+380961111111" class="link contact__link contact__link--phone">
                             <svg class="contact__icon contact__icon--phone" aria-label="номер телефона">
                                 <use href="./images/symbol-defs.svg#icon-smartphone"></use>
                             </svg>
@@ -94,7 +94,7 @@
     </header>
 
     <!-- Секция герой -->
-
+    <main>
     <section class="hero hero__overlay">
         <div class="container">
             <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
@@ -556,7 +556,9 @@
                                 <use href="./images/symbol-defs.svg#icon-Vector-2" class=""></use>
                             </svg>
                         </span>
-                        Соглашаюсь с рассылкой и принимаю <a href="" class="checkbox__link">Условия договора</a>
+                        <div><span class="checkbox__text">Соглашаюсь с рассылкой и принимаю</span> <a href="" class="checkbox__link">Условия
+                            договора</a></div>
+                        
                     </label>
         
                     <button type="submit" class="button form__btn">Отправить</button>
@@ -565,12 +567,12 @@
         </div>
     </main>
 
-
+    <script src="./js/modal.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+        integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+        crossorigin="anonymous"></script>
+    <script defer src="js/mobile-menu.js"></script>
 </body>
-<script src="./js/modal.js"></script>
-<script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
-    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
-    crossorigin="anonymous"></script>
-<script defer src="js/mobile-menu.js"></script>
+
 
 </html>
