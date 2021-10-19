@@ -16,6 +16,10 @@
   font-size: 18px;
   line-height: 1.555;
   letter-spacing: 0.03em;
+  @media (max-width: 480px) {
+    // font-size: 5vw;
+    overflow-y: scroll;
+  }
 }
 
 .portf__link:hover .portf__overlay,

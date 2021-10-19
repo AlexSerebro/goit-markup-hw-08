@@ -1582,6 +1582,12 @@ img {
   letter-spacing: 0.03em;
 }
 
+@media (max-width: 480px) {
+  .portf__overlay {
+    overflow-y: scroll;
+  }
+}
+
 .portf__link:hover .portf__overlay,
 .portf__link:focus .portf__overlay {
   -webkit-transform: translateY(0);
