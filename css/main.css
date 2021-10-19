@@ -1529,6 +1529,18 @@ img {
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
+@media (min-width: 768px) and (max-width: 1199px) {
+  .portf__link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .portf__thumb {
   position: relative;
   overflow: hidden;
@@ -1536,6 +1548,14 @@ img {
 
 .portf__item--description {
   padding: 20px 24px;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .portf__item--description {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+  }
 }
 
 .portf__title {
@@ -1838,7 +1858,6 @@ img {
 }
 
 .checkbox__link {
-  display: inline;
   margin-left: 3px;
   font-size: 12px;
   line-height: 1.16;
@@ -1854,10 +1873,6 @@ img {
     font-size: 14px;
     line-height: 1.71;
   }
-}
-
-.checkbox__text {
-  display: inline;
 }
 
 .checkbox {
