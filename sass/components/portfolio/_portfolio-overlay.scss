@@ -18,7 +18,10 @@
   letter-spacing: 0.03em;
   @media (max-width: 480px) {
     // font-size: 5vw;
+    padding-top: 10px;
     overflow-y: scroll;
+    align-items: flex-start;
+    justify-content: center;
   }
 }
 
