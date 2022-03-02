@@ -54,6 +54,7 @@
 }
 
 .mobile-menu.is-open {
+  overflow: hidden;
   transform: translateX(0);
 }
 
